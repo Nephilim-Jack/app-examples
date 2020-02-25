@@ -31,7 +31,6 @@ function makeDecimal() {
         if (!intVal) {
             intVal = 0
         }
-        console.log(intVal)
 
         decValue += intVal * (2 ** i)
     }
